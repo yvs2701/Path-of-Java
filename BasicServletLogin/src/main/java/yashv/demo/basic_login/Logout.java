@@ -12,6 +12,7 @@ public class Logout extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         handler(request, response);
     }
+
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         handler(request, response);
     }

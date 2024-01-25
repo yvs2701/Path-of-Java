@@ -15,7 +15,8 @@
         response.sendRedirect(request.getContextPath() + "/login.jsp");
     }
 %>
-<h1><%= "Protected Page" %></h1>
+<h1><%= "Protected Page" %>
+</h1>
 <br>
 <p>Welcome <%= session.getAttribute("username") %>!</p>
 <a href="${pageContext.request.contextPath}/api/auth/logout">Logout</a>

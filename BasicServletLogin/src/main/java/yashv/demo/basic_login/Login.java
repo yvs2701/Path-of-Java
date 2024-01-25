@@ -5,6 +5,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import yashv.demo.dao.UserDAO;
+import yashv.demo.dao.UserDAOFactory;
+import yashv.demo.dto.User;
 
 import java.io.IOException;
 
@@ -22,10 +24,14 @@ public class Login extends HttpServlet {
     }
 
     private void handler(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        UserDAO dao = new UserDAO();
+        UserDAO userDAO = UserDAOFactory.getInstance();
+
         String uname = request.getParameter("username");
         String password = request.getParameter("password");
-        if (dao.check(uname, password)) {
+
+        User result = userDAO.findUserByUname(uname);
+
+        if (password.equals(result.getPassword())) {
             request.getSession().setAttribute("username", uname);
             response.sendRedirect(request.getContextPath() + redirectOnSuccess);
         } else {

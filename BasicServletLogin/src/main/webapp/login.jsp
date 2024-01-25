@@ -13,19 +13,20 @@
         session.removeAttribute("errorMessage");
     }
 %>
-    <form action="${pageContext.request.contextPath}/api/auth/login" method="post">
-        <% if (errorMessage != null) %>
-        <div style="color: red"><%= errorMessage %></div>
-        <label for="usrname">
-            Name:
-            <input id="usrname" name="username" type="text" placeholder="admin" />
-        </label>
-        <br>
-        <label for="psswd">
-            Password:
-            <input id="psswd" name="password" type="password" placeholder="admin" />
-        </label>
-        <button type="submit">Submit</button>
-    </form>
+<form action="${pageContext.request.contextPath}/api/auth/login" method="post">
+    <% if (errorMessage != null) %>
+    <div style="color: red"><%= errorMessage %>
+    </div>
+    <label for="usrname">
+        Name:
+        <input id="usrname" name="username" type="text" placeholder="admin"/>
+    </label>
+    <br>
+    <label for="psswd">
+        Password:
+        <input id="psswd" name="password" type="password" placeholder="admin"/>
+    </label>
+    <button type="submit">Submit</button>
+</form>
 </body>
 </html>

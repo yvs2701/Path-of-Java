@@ -2,10 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Landing Page</title>
+    <title>Landing Page</title>
 </head>
 <body>
-<h1><%= "Namaste Guest!" %></h1>
+<h1><%= "Namaste Guest!" %>
+</h1>
 <br/>
 <a href="protected.jsp">View protected page!</a>
 </body>
