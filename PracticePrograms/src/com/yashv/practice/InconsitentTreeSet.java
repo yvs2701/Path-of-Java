@@ -26,11 +26,17 @@ class Person {
 		Person person = (Person) obj;
 		return name.equals(person.name);
 	}
-	
+
+	/*
+         * As per the "Hash Code Contract" if two objects are equal according to the `equals`
+	 * method, they must have the same hash code, but the reverse is not necessarily true.
+         * Due to this we should override `hashCode` as well if we override `equals`.
+	 * It is because of this we check for hash codes first and only call `equals` if they are same.
+         */
 	@Override
-    public int hashCode() {
-        return Objects.hash(name);
-    }
+        public int hashCode() {
+                return Objects.hash(name);
+        }
 }
 
 class PersonComparator implements Comparator<Person> {
