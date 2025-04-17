@@ -1,0 +1,6 @@
+In two separate terminals:
+1) .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+2) .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+To open the consumer queue in CLI:
+.\bin\windows\kafka-console-consumer.bat -bootstrap-server localhost:9092 -topic Location
