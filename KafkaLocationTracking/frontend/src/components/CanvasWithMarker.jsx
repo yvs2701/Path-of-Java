@@ -42,8 +42,40 @@ const CanvasWithMarker = ({
       ctx.strokeStyle = mcolor;
       ctx.stroke();
     };
+
+    /** @type {function({mx, my, mr}, {mx, my, mr}): void} */
+    const drawLine = (marker1, marker2) => {
+      if (!marker1 || !marker2) return;
+      if (
+        marker1.mx === null ||
+        marker1.mx === undefined ||
+        marker1.my === null ||
+        marker1.my === undefined ||
+        marker1.mr === null ||
+        marker1.mr === undefined ||
+        marker2.mx === null ||
+        marker2.mx === undefined ||
+        marker2.my === null ||
+        marker2.my === undefined ||
+        marker2.mr === null ||
+        marker2.mr === undefined
+      ) {
+        return;
+      }
+
+      ctx.beginPath();
+      ctx.moveTo(marker1.mx, marker1.my);
+      ctx.lineTo(marker2.mx, marker2.my);
+      ctx.strokeStyle = mcolor;
+      ctx.lineWidth = marker1.mr;
+      ctx.stroke();
+    };
+
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    markers.forEach((marker) => drawMarker(marker.mx, marker.my, marker.mr));
+    markers.forEach((marker, idx, markerArr) => {
+      drawMarker(marker.mx, marker.my, marker.mr);
+      idx > 0 && drawLine(marker, markerArr[idx - 1]);
+    });
   }, [markers]);
 
   const setMarkerCoords = useCallback(async (e) => {

@@ -1,3 +1,6 @@
+First, change the Zookeeper data directory inside confit/zookeeper.properties and kafka-logs directory inside config/server.properties
+to a place where data can persist (simply create a new folder in the parent directory of the config folder).
+
 In two separate terminals:
 1) .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 2) .\bin\windows\kafka-server-start.bat .\config\server.properties
