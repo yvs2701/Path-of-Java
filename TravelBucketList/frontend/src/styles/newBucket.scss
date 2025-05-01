@@ -1,0 +1,89 @@
+.bucket-form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+
+  gap: 20px;
+
+  &-section {
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 10px;
+
+    input[type="text"],
+    input[type="number"] {
+      padding: 8px;
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    table {
+      border: 1px solid #ccc; // only for outlining the table
+      border-collapse: separate; // to create a gap between table cells
+      border-spacing: 10px; // to adjust the gap's width
+
+      & tr {
+        th:nth-child(odd),
+        td:nth-child(odd) {
+          text-align: left;
+        }
+        th:nth-child(even),
+        td:nth-child(even) {
+          text-align: right;
+        }
+      }
+
+      & thead td,
+      & tfoot td {
+        font-weight: 700;
+      }
+
+      &.budget-table {
+        & tr th,
+        & tr td {
+          text-align: center;
+        }
+      }
+
+      &.budget-table tfoot::before {
+        content: "---";
+      }
+    }
+
+    @media screen and (max-width: 660px) {
+      min-width: unset;
+    }
+  }
+
+  @media screen and (max-width: 660px) {
+    font-size: 0.75em;
+
+    border: none;
+    box-shadow: none;
+
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media print {
+  .bucket-form {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+}

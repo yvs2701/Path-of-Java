@@ -1,0 +1,321 @@
+[
+    {
+        "title": "Paris Trip",
+        "description": "Discover the charm of Paris",
+        "itineraryItems": [
+            { "detail": "Visit the Eiffel Tower" },
+            { "detail": "Stroll along the Seine" },
+            { "detail": "Attend Indila's concert" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 11000 },
+            { "itemName": "Hotel", "price": 6700 }
+        ]
+    },
+    {
+        "title": "Delhi Trip",
+        "description": "Explore the capital of India",
+        "itineraryItems": [
+            { "detail": "Visit the Qutab Minar" },
+            { "detail": "Try Chole Bhature" },
+            { "detail": "Visit India Gate in the night" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 2256 },
+            { "itemName": "Hotel", "price": 955 },
+            { "itemName": "Rickshaw Ride", "price": 500 }
+        ]
+    },
+    {
+        "title": "Jammu Trip",
+        "description": "Visiting the heaven on Earth",
+        "itineraryItems": [
+            { "detail": "Visit Vaishno Devi temple" },
+            { "detail": "Trek to Srinagar" },
+            { "detail": "Visit nearby monasteries" }
+        ],
+        "budgetItems": [
+            { "itemName": "Rope Climbing", "price": 200 },
+            { "itemName": "Hotel", "price": 2000 },
+            { "itemName": "Train", "price": 1773 }
+        ]
+    },
+    {
+        "title": "Bengaluru Trip",
+        "description": "IT hub of India",
+        "itineraryItems": [
+            { "detail": "Trek to Nandi Hills" },
+            { "detail": "Spend a day at Isha Yoga center" },
+            { "detail": "Say hi to your colleague at Accenture" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 2200 },
+            { "itemName": "Airbnb", "price": 6000 }
+        ]
+    },
+    {
+        "title": "Tokyo Trip",
+        "description": "Experience the vibrant culture of Tokyo",
+        "itineraryItems": [
+            { "detail": "Visit the Tokyo Tower" },
+            { "detail": "Explore Shibuya Crossing" },
+            { "detail": "Enjoy sushi at Tsukiji Market" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 15000 },
+            { "itemName": "Hotel", "price": 8000 }
+        ]
+    },
+    {
+        "title": "New York Trip",
+        "description": "Discover the city that never sleeps",
+        "itineraryItems": [
+            { "detail": "Visit Times Square" },
+            { "detail": "Walk through Central Park" },
+            { "detail": "See a Broadway show" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 12000 },
+            { "itemName": "Hotel", "price": 9000 }
+        ]
+    },
+    {
+        "title": "Sydney Trip",
+        "description": "Explore the beauty of Sydney",
+        "itineraryItems": [
+            { "detail": "Visit the Sydney Opera House" },
+            { "detail": "Walk across the Sydney Harbour Bridge" },
+            { "detail": "Relax at Bondi Beach" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 14000 },
+            { "itemName": "Hotel", "price": 7500 }
+        ]
+    },
+    {
+        "title": "London Trip",
+        "description": "Experience the history and culture of London",
+        "itineraryItems": [
+            { "detail": "Visit the British Museum" },
+            { "detail": "See the Tower of London" },
+            { "detail": "Enjoy a ride on the London Eye" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 13000 },
+            { "itemName": "Hotel", "price": 8500 }
+        ]
+    },
+    {
+        "title": "Rome Trip",
+        "description": "Discover the ancient wonders of Rome",
+        "itineraryItems": [
+            { "detail": "Visit the Colosseum" },
+            { "detail": "Explore the Vatican City" },
+            { "detail": "Walk through the Roman Forum" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 12500 },
+            { "itemName": "Hotel", "price": 7000 }
+        ]
+    },
+    {
+        "title": "Barcelona Trip",
+        "description": "Enjoy the vibrant city of Barcelona",
+        "itineraryItems": [
+            { "detail": "Visit the Sagrada Familia" },
+            { "detail": "Stroll along La Rambla" },
+            { "detail": "Relax at Barceloneta Beach" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 11500 },
+            { "itemName": "Hotel", "price": 6500 }
+        ]
+    },
+    {
+        "title": "Dubai Trip",
+        "description": "Experience the luxury of Dubai",
+        "itineraryItems": [
+            { "detail": "Visit the Burj Khalifa" },
+            { "detail": "Shop at Dubai Mall" },
+            { "detail": "Relax at Jumeirah Beach" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 10000 },
+            { "itemName": "Hotel", "price": 9000 }
+        ]
+    },
+    {
+        "title": "Cape Town Trip",
+        "description": "Explore the beauty of Cape Town",
+        "itineraryItems": [
+            { "detail": "Visit Table Mountain" },
+            { "detail": "Explore the V&A Waterfront" },
+            { "detail": "Relax at Camps Bay Beach" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 13000 },
+            { "itemName": "Hotel", "price": 7000 }
+        ]
+    },
+    {
+        "title": "Bangkok Trip",
+        "description": "Experience the vibrant city of Bangkok",
+        "itineraryItems": [
+            { "detail": "Visit the Grand Palace" },
+            { "detail": "Explore Wat Arun" },
+            { "detail": "Shop at Chatuchak Market" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 9000 },
+            { "itemName": "Hotel", "price": 5000 }
+        ]
+    },
+    {
+        "title": "Singapore Trip",
+        "description": "Discover the modern city of Singapore",
+        "itineraryItems": [
+            { "detail": "Visit Marina Bay Sands" },
+            { "detail": "Explore Gardens by the Bay" },
+            { "detail": "Shop at Orchard Road" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 11000 },
+            { "itemName": "Hotel", "price": 8000 }
+        ]
+    },
+    {
+        "title": "Hong Kong Trip",
+        "description": "Experience the dynamic city of Hong Kong",
+        "itineraryItems": [
+            { "detail": "Visit Victoria Peak" },
+            { "detail": "Explore Hong Kong Disneyland" },
+            { "detail": "Shop at Mong Kok" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 12000 },
+            { "itemName": "Hotel", "price": 8500 }
+        ]
+    },
+    {
+        "title": "San Francisco Trip",
+        "description": "Discover the charm of San Francisco",
+        "itineraryItems": [
+            { "detail": "Visit the Golden Gate Bridge" },
+            { "detail": "Explore Alcatraz Island" },
+            { "detail": "Walk through Fisherman's Wharf" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 13000 },
+            { "itemName": "Hotel", "price": 9000 }
+        ]
+    },
+    {
+        "title": "Los Angeles Trip",
+        "description": "Experience the glamour of Los Angeles",
+        "itineraryItems": [
+            { "detail": "Visit Hollywood" },
+            { "detail": "Explore Universal Studios" },
+            { "detail": "Relax at Santa Monica Beach" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 12500 },
+            { "itemName": "Hotel", "price": 8500 }
+        ]
+    },
+    {
+        "title": "Miami Trip",
+        "description": "Enjoy the vibrant city of Miami",
+        "itineraryItems": [
+            { "detail": "Visit South Beach" },
+            { "detail": "Explore Little Havana" },
+            { "detail": "Shop at Bayside Marketplace" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 12000 },
+            { "itemName": "Hotel", "price": 8000 }
+        ]
+    },
+    {
+        "title": "Toronto Trip",
+        "description": "Discover the charm of Toronto",
+        "itineraryItems": [
+            { "detail": "Visit the CN Tower" },
+            { "detail": "Explore the Royal Ontario Museum" },
+            { "detail": "Walk through Distillery District" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 11000 },
+            { "itemName": "Hotel", "price": 7500 }
+        ]
+    },
+    {
+        "title": "Mumbai Trip",
+        "description": "Experience the bustling metropolis of Mumbai",
+        "itineraryItems": [
+            { "detail": "Visit the Gateway of India" },
+            { "detail": "Enjoy Marine Drive" },
+            { "detail": "Shop at Colaba Causeway" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 3000 },
+            { "itemName": "Hotel", "price": 2500 },
+            { "itemName": "Local Metro Experience", "price": 500 }
+        ]
+    },
+    {
+        "title": "Chennai Trip",
+        "description": "Discover the cultural heritage of Chennai",
+        "itineraryItems": [
+            { "detail": "Visit Marina Beach" },
+            { "detail": "Explore Kapaleeshwarar Temple" },
+            { "detail": "Stroll through Georgetown" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 3200 },
+            { "itemName": "Hotel", "price": 2800 },
+            { "itemName": "Auto Rickshaw Experience", "price": 400 }
+        ]
+    },
+    {
+        "title": "Kolkata Trip",
+        "description": "Experience the vibrant culture of Kolkata",
+        "itineraryItems": [
+            { "detail": "Visit Victoria Memorial" },
+            { "detail": "Walk along Park Street" },
+            { "detail": "Explore Howrah Bridge" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 3500 },
+            { "itemName": "Hotel", "price": 3000 },
+            { "itemName": "Tram Ride Experience", "price": 600 }
+        ]
+    },
+    {
+        "title": "Pune Trip",
+        "description": "Discover the historical charm of Pune",
+        "itineraryItems": [
+            { "detail": "Visit Shaniwar Wada" },
+            { "detail": "Explore Aga Khan Palace" },
+            { "detail": "Stroll through Fergusson College Road" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 2900 },
+            { "itemName": "Hotel", "price": 2600 },
+            { "itemName": "Pune Street Food Tour", "price": 550 }
+        ]
+    },
+    {
+        "title": "Hyderabad Trip",
+        "description": "Explore the historic beauty of Hyderabad",
+        "itineraryItems": [
+            { "detail": "Visit Charminar" },
+            { "detail": "Explore Golconda Fort" },
+            { "detail": "Stroll at Hussain Sagar Lake" }
+        ],
+        "budgetItems": [
+            { "itemName": "Flight", "price": 3100 },
+            { "itemName": "Hotel", "price": 2700 },
+            { "itemName": "Biryani Tasting Tour", "price": 700 }
+        ]
+    }
+]

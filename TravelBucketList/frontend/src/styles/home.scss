@@ -1,0 +1,15 @@
+.bucket-list {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center; // centers all children in each column on the inline axis
+  align-items: stretch; // ensures equal height inside each row on the block axis
+}
+
+@media screen and (max-width: 660px) {
+  .bucket-list {
+    grid-template-columns: 1fr;
+    justify-content: stretch;
+  }
+}
